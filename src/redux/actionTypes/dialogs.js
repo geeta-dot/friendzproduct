@@ -1,0 +1,5 @@
+export const FETCH_DIALOGS = "FETCH_DIALOGS";
+export const ADD_DIALOG = "ADD_DIALOG";
+export const SORT_DIALOGS = "SORT_DIALOGS";
+export const UPDATE_DIALOG = "UPDATE_DIALOG";
+export const DELETE_DIALOG = "DELETE_DIALOG";

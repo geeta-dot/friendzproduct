@@ -1,0 +1,138 @@
+#nprogress .bar {
+  background: #ff5722 !important;
+}
+
+.MuiDialog-container .MuiGrid-spacing-xs-8{
+  width: 100%;
+  margin:0;
+  
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image{
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --bg: #f8f8f8;
+  --grey: #999;
+  --dark: #1a1a1a;
+  --light: #e6e6e6;
+  --wrapper: 850px;
+  --blue: #2c3539;
+  --theme: #8544ff;
+  --theme-light: #f0e3ff;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  width: 1rem;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar{
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,	  transparent 75%, transparent);
+  background-color: #ccc;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--theme);
+  outline: 1px solid var(--theme);
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: #000;
+}
+
+.swiper-button-next{
+  right: 23px;
+}
+
+.googleBtn button{
+  justify-content: center;
+  min-width: 60%;
+}
+
+.MuiAccordion-root:before{
+  display: none;
+}
+
+.swiper-slide .MuiCard-root {
+  max-width: 100% !important;
+}
+
+.selProd{
+    border: solid 1px #222;
+    color: #222;
+    padding: 10px;
+    display: inline-block;
+    margin: 2rem 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 5rem !important;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    margin-left: -200px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideFromLeft {
+  0% {
+    margin-left: -200px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@keyframes slideFromRight {
+  0% {
+    margin-right: -200px;
+    opacity: 0;
+  }
+  100% {
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideFromRight {
+  0% {
+    margin-right: -200px;
+    opacity: 0;
+  }
+  100% {
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+
+@media(max-width:767px){
+  .MuiDropzonePreviewList-imageContainer{
+    width: 100%;
+    max-width: 100% !important;
+    flex:1;
+  }
+}

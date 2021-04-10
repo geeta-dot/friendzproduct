@@ -1,0 +1,3 @@
+export const ADD_VISITED = 'ADD_VISITED'
+export const REMOVE_VISITED = 'REMOVE_VISITED'
+export const FETCH_VISITED = 'FETCH_VISITED'

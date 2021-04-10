@@ -1,0 +1,2 @@
+export const CHAT_UNREAD = "CHAT_UNREAD";
+export const CHAT_UNREAD_RESET = "CHAT_UNREAD_RESET";
